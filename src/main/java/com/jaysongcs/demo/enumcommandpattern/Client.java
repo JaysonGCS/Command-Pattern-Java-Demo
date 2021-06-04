@@ -7,8 +7,8 @@ import com.jaysongcs.demo.enumcommandpattern.invoker.KarateInvoker;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Application {
-    private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
+public class Client {
+    private static final Logger LOGGER = LoggerFactory.getLogger(Client.class);
 
     public static void main(String[] args) {
         // Executing a kick

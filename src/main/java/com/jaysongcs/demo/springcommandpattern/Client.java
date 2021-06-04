@@ -17,8 +17,8 @@ import org.springframework.context.ApplicationContext;
 import java.util.Map;
 
 @SpringBootApplication
-public class Application implements ApplicationRunner {
-	private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
+public class Client implements ApplicationRunner {
+	private static final Logger LOGGER = LoggerFactory.getLogger(Client.class);
 
 	@Autowired
 	private BoxingInvokerSvc boxingInvokerSvc;
@@ -41,7 +41,7 @@ public class Application implements ApplicationRunner {
 	private ApplicationContext context;
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(Client.class, args);
 	}
 
 	@Override
